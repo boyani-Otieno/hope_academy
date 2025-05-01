@@ -6,16 +6,16 @@ const Admissions = () => {
     <section className="admissions">
       <div className="admissions-hero">
         <h1>Admissions</h1>
-        <p>Welcome to Greenfield School! We're excited to guide you through our admission process.</p>
+        <p>Welcome to Hope Academy! We're excited to guide you through our admission process.</p>
         <img src="/images/admin1.jpeg" alt="Happy students at Greenfield" className="hero-image" />
       </div>
 
       <div className="admissions-content">
         <section className="admissions-section">
           <div className="admissions-text">
-            <h2>Why Choose Greenfield?</h2>
+            <h2>Why Choose Hope Academy?</h2>
             <p>
-              At Greenfield School, we provide a well-rounded curriculum, modern facilities, experienced teachers, and
+              At Hope Academy, we provide a well-rounded curriculum, modern facilities, experienced teachers, and
               a nurturing environment where every child thrives academically and socially.
             </p>
           </div>
@@ -54,7 +54,7 @@ const Admissions = () => {
             <h2>Contact Admissions Office</h2>
             <p>
               <strong>Phone:</strong> +254 700 123 456<br />
-              <strong>Email:</strong> admissions@greenfieldschool.ac.ke<br />
+              <strong>Email:</strong> admissions@hopeacademy.ac.ke<br />
               <strong>Office Hours:</strong> Monday – Friday, 8:00am – 4:30pm
             </p>
           </div>
