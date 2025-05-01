@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => (
   <footer className="footer">
-    <p>&copy; {new Date().getFullYear()} Greenfield School. All rights reserved.</p>
+    <p>&copy; {new Date().getFullYear()} Hope Academy Centre. All rights reserved.</p>
   </footer>
 );
 

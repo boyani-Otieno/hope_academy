@@ -1,0 +1,131 @@
+.admissions {
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .admissions-hero {
+    text-align: center;
+    background-color: #f3f7f9;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+  }
+  
+  .admissions-hero h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  .admissions-hero p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+  
+  .admissions-content section {
+    margin-bottom: 2rem;
+  }
+  
+  .admissions-content h2 {
+    font-size: 1.6rem;
+    color: #1e3d59;
+    margin-bottom: 0.5rem;
+  }
+  
+  .admissions-content p,
+  .admissions-content ul,
+  .admissions-content ol {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .admissions-content ul,
+  .admissions-content ol {
+    padding-left: 1.5rem;
+  }
+  
+  .admissions-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* ---------- Responsive ---------- */
+  @media (max-width: 768px) {
+    .admissions-hero h1 {
+      font-size: 2rem;
+    }
+  
+    .admissions-hero p,
+    .admissions-content p,
+    .admissions-content ul,
+    .admissions-content ol {
+      font-size: 0.95rem;
+    }
+  
+    .admissions-content h2 {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .admissions {
+      padding: 1.5rem 0.8rem;
+    }
+  
+    .admissions-hero h1 {
+      font-size: 1.7rem;
+    }
+  
+    .admissions-content h2 {
+      font-size: 1.2rem;
+    }
+  }
+
+  
+  .hero-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+  
+  .admissions-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .admissions-section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .admissions-section img {
+    width: 45%;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .admissions-text {
+    flex: 1;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .admissions-section {
+      flex-direction: column;
+    }
+  
+    .admissions-section.reverse {
+      flex-direction: column;
+    }
+  
+    .admissions-section img {
+      width: 100%;
+    }
+  }
+  

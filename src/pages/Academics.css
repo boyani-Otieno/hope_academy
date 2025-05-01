@@ -1,7 +1,7 @@
 .subjects {
     max-width: 1100px;
     margin: auto;
-    padding: 2rem;
+    padding: 2rem 1rem;
   }
   
   .subjects-section {
@@ -36,5 +36,36 @@
   .subjects-section li {
     margin-bottom: 0.8rem;
     line-height: 1.6;
+  }
+  
+  /* ---------- Responsive Styling ---------- */
+  
+  @media (max-width: 900px) {
+    .subjects-section {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  
+    .subjects-section.reverse {
+      flex-direction: column;
+    }
+  
+    .subjects-section img {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .subjects {
+      padding: 1.5rem 1rem;
+    }
+  
+    .subjects-section h2 {
+      font-size: 1.4rem;
+    }
+  
+    .subjects-section li {
+      font-size: 0.95rem;
+    }
   }
   

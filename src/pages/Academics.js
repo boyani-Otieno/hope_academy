@@ -7,6 +7,7 @@ import additionalImg from '../assets/subject2.jpeg';
 const Academics = () => {
   return (
     <section className="subjects">
+        <h1>ACADEMICS</h1>
       <div className="subjects-section">
         <img src={coreImg} alt="Core Subjects" />
         <div>
