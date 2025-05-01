@@ -1,0 +1,156 @@
+.home {
+    font-family: 'Segoe UI', sans-serif;
+    color: #2c3e50;
+  }
+  
+  .video-background {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    overflow: hidden;
+  }
+  
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
+  .overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+  }
+  
+  .home-btn {
+    background-color: #f4b400;
+    color: #fff;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .home-btn:hover {
+    background-color: #d49e00;
+  }
+  
+  .home-btn.secondary {
+    background-color: #1e3d59;
+    margin-top: 1rem;
+  }
+  
+  .home-content {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+  
+  .home-section {
+    margin-bottom: 3rem;
+  }
+  
+  .home-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1e3d59;
+  }
+  
+  .home-section p,
+  .home-section ul {
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 900px;
+  }
+  
+  .home-section ul {
+    padding-left: 1.5rem;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 992px) {
+    .overlay h1 {
+      font-size: 2.4rem;
+    }
+  
+    .overlay p {
+      font-size: 1.1rem;
+    }
+  
+    .home-btn {
+      font-size: 0.95rem;
+      padding: 0.7rem 1.4rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .overlay {
+      padding: 1rem;
+    }
+  
+    .overlay h1 {
+      font-size: 2rem;
+    }
+  
+    .overlay p {
+      font-size: 1rem;
+    }
+  
+    .home-btn {
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+    }
+  
+    .home-content {
+      padding: 0 1rem;
+    }
+  
+    .home-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .home-section p,
+    .home-section ul {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .overlay h1 {
+      font-size: 1.7rem;
+    }
+  
+    .overlay p {
+      font-size: 0.95rem;
+    }
+  
+    .home-btn {
+      font-size: 0.85rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
