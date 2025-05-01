@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+}
+
+main {
+  padding: 2rem;
+}
+
+.page {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
