@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -8,8 +8,13 @@ import Admissions from './pages/Admissions';
 import Academics from './pages/Academics';
 import Contact from './pages/Contact';
 import './App.css';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <Router>
       <Navbar />

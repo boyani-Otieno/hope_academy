@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="contact-info">
           <h2>Contact Us</h2>
           <p><strong>Address:</strong> Hope Academy, Nairobi, Kenya</p>
-          <p><strong>Phone:</strong> +254 712 345678</p>
+          <p><strong>Phone:</strong> +254 726579395</p>
           <p><strong>Email:</strong> info@hopeacademy.ac.ke</p>
 
           <div className="map-container">              
