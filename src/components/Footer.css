@@ -88,6 +88,24 @@
   font-weight: bold;
 }
 
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+
+.social-icons a {
+  color: #e8f5e9;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+
 .newsletter-form button:hover {
   background-color: #81c784;
 }

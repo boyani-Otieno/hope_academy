@@ -1,11 +1,11 @@
 import React from "react";
 import "./Footer.css";
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Column 1: Logo & Mission */}
         <div className="footer-section">
           <h2 className="footer-logo">Hope Academy</h2>
           <p>
@@ -14,7 +14,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Column 2: Quick Links */}
         <div className="footer-section">
           <h3>Quick Links</h3>
           <ul>
@@ -26,20 +25,18 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Column 3: Contact Info */}
         <div className="footer-section">
           <h3>Contact Us</h3>
           <p>Email: info@hopeacademy.org</p>
           <p>Phone: +254 700 123 456</p>
           <p>Address: Greenfield Road, Nairobi, Kenya</p>
           <div className="social-icons">
-            <a href="#"><img src="/icons/facebook.svg" alt="Facebook" /></a>
-            <a href="#"><img src="/icons/twitter.svg" alt="Twitter" /></a>
-            <a href="#"><img src="/icons/instagram.svg" alt="Instagram" /></a>
+            <a href="#"><FaFacebookF /></a>
+            <a href="#"><FaTwitter /></a>
+            <a href="#"><FaInstagram /></a>
           </div>
         </div>
 
-        {/* Column 4: Newsletter */}
         <div className="footer-section">
           <h3>Stay Updated</h3>
           <p>Subscribe to our newsletter to receive updates and news.</p>
