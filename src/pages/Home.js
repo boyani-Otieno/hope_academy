@@ -23,7 +23,7 @@ const Home = () => {
         <section className="home-section">
           <h2>Our Mission</h2>
           <p>
-            Greenfield School is dedicated to nurturing young minds through quality education, innovation,
+            Hope Academy is dedicated to nurturing young minds through quality education, innovation,
             and holistic development. We empower students to be confident, compassionate, and responsible global citizens.
           </p>
         </section>
