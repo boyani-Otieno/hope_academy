@@ -1,5 +1,5 @@
 import React from 'react';
-import './contact.css';
+import './Contact.css';
 
 const Contact = () => {
   return (
@@ -7,20 +7,19 @@ const Contact = () => {
       <div className="contact-container">
         <div className="contact-info">
           <h2>Contact Us</h2>
-          <p><strong>Address:</strong> Greenfield School, Nairobi, Kenya</p>
+          <p><strong>Address:</strong> Hope Academy, Nairobi, Kenya</p>
           <p><strong>Phone:</strong> +254 712 345678</p>
-          <p><strong>Email:</strong> info@greenfieldschool.ac.ke</p>
+          <p><strong>Email:</strong> info@hopeacademy.ac.ke</p>
 
-          <div className="map-container">
-            <iframe
-              title="School Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.801117359704!2d36.82194650000001!3d-1.2920658999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10db7f51eb5b%3A0x5281dbf61894edbb!2sNairobi!5e0!3m2!1sen!2ske!4v1715693893936!5m2!1sen!2ske"
-              width="100%"
-              height="250"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <div className="map-container">              
+            <iframe 
+            title="School Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7616908432306!2d36.77742097411546!3d-1.3186575356605672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1bcfe08eaf57%3A0xa6a8344e0cf16726!2sHope%20Academy%20(Tumaini%20Hope%20Center)!5e0!3m2!1sen!2ske!4v1746445240171!5m2!1sen!2ske" 
+            width="100%" 
+            height="450"  
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
 
