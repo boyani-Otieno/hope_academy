@@ -67,7 +67,11 @@ const About = () => {
           <div className="testimonial-card">
             <img src="/images/girl.jpg" alt="Ms. Achieng" />
             <h4>Ms. Achieng – Science Teacher</h4>
-            <p>"Hope Academy encourages creativity and deep thinking. Watching students grow is my greatest joy."</p>
+            <p>"HoQuick links
+
+Contact info
+
+pe Academy encourages creativity and deep thinking. Watching students grow is my greatest joy."</p>
           </div>
           <div className="testimonial-card">
             <img src="/images/girl.jpg" alt="Mr. Otieno" />
